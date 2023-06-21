@@ -598,7 +598,8 @@ textarea {
     -moz-appearance: none;
     appearance: none;
     // font-weight: bold;
-    background: #F4F4F4;
+    background: #Fff;
+    border: solid 1px #c2c2c2;
 }
 select {
     transition: none !important;
@@ -658,9 +659,9 @@ textarea {
 input {
     &[type="text"], &[type="search"],&[type="calendar"], &[type="email"], &[type="tel"], &[type="time"], , &[type="url"] {
         border-radius: $btn-radius;
-        background: #F4F4F4;
+        background: #fff;
         &:hover, &:focus {
-            background: #F5F5F5;
+            background: #fff;
         }
     }
 }
